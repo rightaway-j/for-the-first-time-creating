@@ -12,18 +12,57 @@
 
   gtag('config', 'UA-178735782-1');
 </script>
+<style>
 
+body{
+  margin:0;
+}
+a{
+  color:green;
+  text-decoration: none;
+}
+h1{
+  font-size:44px;
+  text-align:center;
+ border-bottom:3px solid gray;
+  margin:0;
+  padding:20px;
+}
+.saw{
+  color:lightgreen;
+}
+#active{
+  color:red;
+  font-size:30px;
+}
+ ol{
+   border-right:3px solid gray;
+   width:100px;
+   margin:0;
+   padding:20px;
+ }
+ ol{
+   padding-left:33px;
+ }
+ #grid{
+   display: grid;
+   grid-template-columns: 150px 1fr;}
+#article{
+  padding-left:25px;
+}
+</style>
 </head>
-
 <body>
  <h1><a href="index.html">WINNER OF THE 17TH INTERNATIONAL FRYDERYK CHOPIN PIANO COMPETITION</a></h1>
- <ol>
-  <li><a href="1.html">PROFIEL</a></li>
-  <li><a href="2.html">MUSIC ALBUM</a></li>
-  <li><a href="3.html">CONCERTS</a></li>
+ <div id="grid">
+   <ol>
+  <li><a href="1.html"class="saw">PROFIEL</a></li>
+  <li><a href="2.html"class="saw" id="active">MUSIC</a></li>
+  <li><a href="3.html"class="saw">CONCERTS</a></li>
 </ol>
+ <div id="article">
  <h2>music album</h2>
- <p>
+<p>
    	<h3>Seong-Jin Cho: Winner of the 17th International Fryderyk Chopin Piano Competition, Warsaw 2015</h3>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/Cb26O5_mhx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     	<br><br><br><h3>Chopin: Koncert e-moll; Ballada F-dur op. 38; Fantazja f-moll; Mazurki</h3>
@@ -37,5 +76,7 @@
             	<br><br><br><h3>The Wanderer: Schubert, Berg, Liszt</h3>
            <iframe width="560" height="315" src="https://www.youtube.com/embed/JpT1I_XMjfc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  </p>
+ </div>
+</div>
  </body>
  </html>
